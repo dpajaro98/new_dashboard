@@ -1,0 +1,23 @@
+{
+  "name": "new_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpajaro98/new_dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpajaro98/new_dashboard/issues"
+  },
+  "homepage": "https://github.com/dpajaro98/new_dashboard#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql": "^2.18.1"
+  }
+}
