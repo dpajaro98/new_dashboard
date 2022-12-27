@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Guru Promos</title>
+    <script src="db.js"></script>
+</head>
+<body>
+    <script>
+        const conexion=require('./db');
+        const sql='SELECT * FROM discounts';
+        conexion.query(sql,error,resultados=>{
+            if(error){
+                console.log(error);
+            }
+            else{
+                console.log(resultados);
+            }
+            
+        }); 
+        conexion.end();         
+            
+    </script>
+</body>
+</html>
